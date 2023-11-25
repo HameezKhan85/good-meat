@@ -49,16 +49,11 @@
 
     /* PRODUCT-DETAIL_END */
 
-    /* GALLERY_START */
-    .gallery > .container-fluid {
-        width: 85% !important;
-    }
-    /* GALLERY_END */
-    
     /* BLOG_START */
-    .blog > .container-fluid {
+    .blog>.container-fluid {
         width: 85% !important;
     }
+
     /* BLOG_END */
 
     /* CONTACT_START */
@@ -87,16 +82,25 @@
 
     /* PRODUCT-DETAIL_END */
 
+    /* GALLERY_START */
+    .gallery>.container-fluid {
+        width: 85% !important;
+    }
+
+    /* GALLERY_END */
+
     /* BUTCHER_START */
-    .butcher-img > .position-absolute {
+    .butcher-img>.position-absolute {
         left: -10% !important;
     }
+
     /* BUTCHER_END */
 
     /* BLOG_START */
-    .blog > .container-fluid {
+    .blog>.container-fluid {
         width: 90% !important;
     }
+
     /* BLOG_END */
 
     /* FAQs_START */
@@ -157,6 +161,12 @@
 
     /* PRODUCT-DETAIL_END */
 
+    /* TESTIMONIALS_START */
+    .testimonials>.container-fluid>.mx-auto {
+        width: 75% !important;
+    }
+    /* TESTIMONIALS_END */
+
     /* FAQs_START */
     .faq>.container-fluid {
         width: 75% !important;
@@ -173,8 +183,11 @@
     .btn-bg {
         width: 105px;
         height: 45px;
-        font-size: 14px !important;
         padding: 0 !important;
+    }
+
+    .btn-bg>a {
+        font-size: 14px !important;
     }
 
     .h3 {
@@ -231,6 +244,13 @@
 
     /* ABOUT_END */
 
+    /* PRODUCT-DETAIL_START */
+    .product-details>.container-fluid>.d-flex>p {
+        width: 100% !important;
+    }
+
+    /* PRODUCT-DETAIL_END */
+
     /* PRODUCT-BANNER_START */
     .product-banner>.container-fluid {
         width: 85% !important;
@@ -239,10 +259,11 @@
     /* PRODUCT-BANNER_END */
 
     /* BUTCHER_START */
-    .butcher-img > img {
+    .butcher-img>img {
         max-width: 360px !important;
         height: 420px !important;
     }
+
     /* BUTCHER_END */
 }
 
@@ -262,16 +283,17 @@
     }
 
     .detail-img>img {
-        max-height: 380px !important;
+        max-height: 340px !important;
     }
 
     /* ABOUT_END */
 
     /* BUTCHER_START */
 
-    .butcher-img > img { 
+    .butcher-img>img {
         max-width: 240px !important;
         height: 300px !important;
     }
+
     /* BUTCHER_END */
 }
